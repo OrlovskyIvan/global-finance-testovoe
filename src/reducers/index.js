@@ -1,5 +1,7 @@
 import { combineReducers } from 'redux'
-// import movieDBAuthentification from './movieDBAuthentification'
+import sort from './sort'
+import fetchData from './fetchData'
+import investmentIdeasContainer from './investmentIdeasContainer'
 // import authenticateLink from './authenticateLink'
 // import popularMovies from './popularMovies'
 // import fetchData from './fetchData'
@@ -10,6 +12,9 @@ import { combineReducers } from 'redux'
 
 export default combineReducers({
 
+    sort,
+    fetchData,
+    investmentIdeasContainer
     // movieDBAuthentification,
     // authenticateLink,
     // popularMovies,

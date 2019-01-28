@@ -1,0 +1,3 @@
+export const FETCHING_DATA = "FETCHING_DATA"
+export const DATA_RECEIVED = "DATA_RECEIVED"
+export const FETCHED_DATA = "FETCHED_DATA"

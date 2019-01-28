@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Sort from '../../containers/Sort';
+import InvestmentIdeasContainer from '../../containers/InvestmentIdeasContainer';
 
 import './style/style.sass'
 
@@ -15,6 +16,7 @@ class App extends Component {
                     </section>
 
                     <Sort/>
+                    <InvestmentIdeasContainer/>
 
                 </div>
 
