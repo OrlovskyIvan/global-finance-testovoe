@@ -14,7 +14,7 @@ export default function InvestmentIdea(props) {
         dateMass = dateAsString.split('-'),
         date = `${dateMass[2].substring(0,2)}.${dateMass[1]}.${dateMass[0]}`,
         /* Ссылка на лого */
-        logoUrl = `https://68.183.217.11/${InvestmentIdeaDataObj.logoSrc}`,
+        logoUrl = `http://68.183.217.11/${InvestmentIdeaDataObj.logoSrc}`,
         /* Имя идеи */
         name = InvestmentIdeaDataObj.name,
         /* Период */
