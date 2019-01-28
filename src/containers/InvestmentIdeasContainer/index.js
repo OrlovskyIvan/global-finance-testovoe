@@ -13,7 +13,7 @@ class InvestmentIdeasContainer extends Component {
         super(props);
 
         this.state = {
-            fetchUrl: `http://68.183.217.11/api/ideas`
+            fetchUrl: `https://68.183.217.11/api/ideas`
         }
     }
 
